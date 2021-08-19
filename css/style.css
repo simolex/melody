@@ -1,0 +1,87 @@
+@font-face {
+  font-family: "Roboto Regular";
+  src: url("../fonts/roboto-regular/roboto-regular.eot"); /* IE9 Compat Modes */
+  src: url("../fonts/roboto-regular/roboto-regular.eot?#iefix")
+      format("embedded-opentype"),
+    /* IE6-IE8 */ url("../fonts/roboto-regular/roboto-regular.otf")
+      format("opentype"),
+    /* Open Type Font */ url("../fonts/roboto-regular/roboto-regular.svg")
+      format("svg"),
+    /* Legacy iOS */ url("../fonts/roboto-regular/roboto-regular.ttf")
+      format("truetype"),
+    /* Safari, Android, iOS */
+      url("../fonts/roboto-regular/roboto-regular.woff") format("woff"),
+    /* Modern Browsers */ url("../fonts/roboto-regular/roboto-regular.woff2")
+      format("woff2"); /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Roboto Bold";
+  src: url("../fonts/roboto-bold/roboto-bold.eot"); /* IE9 Compat Modes */
+  src: url("../fonts/roboto-bold/roboto-bold.eot?#iefix")
+      format("embedded-opentype"),
+    /* IE6-IE8 */ url("../fonts/roboto-bold/roboto-bold.otf") format("opentype"),
+    /* Open Type Font */ url("../fonts/roboto-bold/roboto-bold.svg")
+      format("svg"),
+    /* Legacy iOS */ url("../fonts/roboto-bold/roboto-bold.ttf")
+      format("truetype"),
+    /* Safari, Android, iOS */ url("../fonts/roboto-bold/roboto-bold.woff")
+      format("woff"),
+    /* Modern Browsers */ url("../fonts/roboto-bold/roboto-bold.woff2")
+      format("woff2"); /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal;
+}
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: "Roboto Regular", sans-serif;
+}
+.header {
+  background-color: #635854;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  border-bottom: 4px solid #3596f5;
+}
+.navbar {
+  max-width: 1280px;
+  margin: auto;
+  display: flex; /* сделали блок гибким */
+  justify-content: space-between; /* расставили элементы по краям */
+  align-items: center;
+}
+.navbar-menu {
+  margin: 0; /* отключаем внешнии отступы */
+  padding: 0; /* отключаем внутренние отступы */
+  list-style: none; /* отключаем точки списка */
+  display: flex;
+  text-align: center;
+}
+.navbar-item {
+  margin-left: 40px;
+  margin-right: 40px;
+}
+.navbar-link {
+  text-decoration: none;
+  color: #fff;
+}
+.navbar-contacts {
+  text-align: right;
+}
+.navbar-text {
+  display: block;
+  color: #fff;
+  margin-bottom: 4px;
+  font-style: 14px;
+  line-height: 16px;
+}
+.navbar-phone {
+  font-family: "Roboto Bold";
+  font-weight: Bold;
+  font-size: 17px;
+  line-height: 20px;
+  text-decoration: none;
+  color: #fff;
+}
